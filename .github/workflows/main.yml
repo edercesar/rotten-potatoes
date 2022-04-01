@@ -28,5 +28,5 @@ jobs:
           push: true
           tags: 
             edercesar/rotten-potatoes:latest
-            edercesar/rotten-potatoes:${ {github.run_number }}
+            edercesar/rotten-potatoes:${{ github.run_number }}
  
